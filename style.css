@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.banner {
+  background-image: url(images/iphone-15-pro_overview__f8jz7aagka2q_og.png);
+  height: 89vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  background-color: rgba(22, 22, 23, 0.8);
+  color: white;
+  height: 6vh;
+  width: 100%;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(177, 175, 175);
+  position: fixed;
+}
+.i {
+  padding-left: 17vw;
+  font-size: 20px;
+  margin-top:7px ;
+}
+.icon {
+  display: flex;
+}
+.icon ion-icon {
+  padding-left: 38px;
+  font-size: 20px;
+}
+.upper-list {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+.upper-list li {
+  list-style-type: none;
+  padding-left: 38px;
+}
+.containers {
+  color: rgb(248, 248, 248);
+  padding-top: calc(50px + 6vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.containers h1 {
+  font-size: 53px;
+}
+p {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.anchors {
+  font-size: 22px;
+  padding-left: 22px;
+  text-decoration: none;
+  color: rgb(0, 106, 255);
+}
+.cont {
+  height: 89vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+}
+.container2 {
+  background-image: url(images/design__bokk6rh0vf7m_large.jpg);
+}
+.container2 h1 {
+  font-size: 55px;
+  color: rgb(20, 20, 20);
+  font-weight: 600;
+  padding-top: 45px;
+}
+.container3 {
+  background-image: url(images/apple-vision-pro__cctkg4nhnb7m_og.png);
+}
+.container3 h1 {
+  padding-top: 65vh;
+  font-size: 50px;
+  font-weight: 600;
+}
+.container3 ion-icon {
+  padding-left: 0px;
+  font-size: 53px;
+  position: relative;
+  top: 5px;
+}
+.stack {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.cad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 80vh;
+}
+.cad1 {
+  background-image: url(images/Apple-Watch-S9-hero-230912.jpg.landing-big_2x.jpg);
+  background-position-y: 70px;
+  background-size: cover;
+  color: whitesmoke;
+}
+.cad1 h1 {
+  padding-top: 55px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.all {
+  font-size: 22px;
+}
+.cad a {
+  font-size: 19px;
+}
+h2 {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  color: rgb(180, 3, 3);
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.cad2 {
+  background-image: url(images/14-inch-MacBook-Pro-M3-Pro.jpg);
+  background-size: cover;
+}
+.cad2 h1 {
+  padding-top: 55px;
+  font-size: 44px;
+  font-weight: 600;
+}
+.cad3 {
+  background-image: url(images/Apple-iPad-10th-gen-hero-221018_Full-Bleed-Image.jpg.large.jpg);
+  background-size: cover;
+}
+.cad3 h1 {
+  padding-top: 55px;
+  font-size: 44px;
+}
+.cad4 {
+  background-image: url(images/323-APPLE_Promo-600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.hh {
+  padding-top: 55px;
+  font-size: 44px;
+}
+.cad5 {
+  background-image: url(images/Apple-Card-available-today-Apple-Card-082019_inline.jpg.large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card ion-icon {
+  position: relative;
+  top: 6px;
+}
+.cad6 {
+  background-image: url(images/iPhone-trade-in.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -140px;
+}
+.trade {
+  font-size: 21px;
+}
+.container {
+  position: relative;
+  z-index: -2;
+}
+footer {
+  margin-top: 100px;
+  background-color: whitesmoke;
+  padding: 20px 280px 20px 270px;
+  color: rgba(15, 15, 15, 0.615);
+  line-height: 17px;
+}
+.foot {
+  font-size: smaller;
+}
+.foot-box{
+  display: flex;
+  font-size:smaller;
+}
+.foot-box li{
+  list-style: none;
+  line-height: 30px;  
+}
+.last{
+  padding-top: 30px;
+  font-size: smaller;
+  padding-left: 30px;
+}
+.sp{
+  padding-left: 60px;
+  font-size: smaller;
+}
+footer a {
+  color: rgba(15, 15, 15, 0.771);
+  font-size: smaller;
+  text-decoration: underline;
+}
